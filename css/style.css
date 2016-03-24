@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 14px;
 }
 body {
     padding: 50px 0;
@@ -19,15 +20,79 @@ a {
 	a:active {
 		color: #444;
 		}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
 ::selection {
 	background-color: rgba(0,0,0,0.5);
 	color: #fff;
 	}
 /* index -- MAIN-CONTENT -- start */
 .main-content {
-    height: 1000px;
+    height: 1500px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.photo-intro{
+    height: 567px;
+    background: url("../images/intro.jpg") no-repeat;
+    background-size: cover;
+}
+.cover-wrap{
+    width: inherit;
+    height: 567px;
+    display: flex;
+    flex-direction: column;
+}
+.photo-intro h1{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 140px;
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+    text-shadow: 0 0 15px black;
+}
+.photo-intro h4{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+    text-shadow: 0 0 15px black;
+}
+.main-btn{
+    padding: 20px 40px;
+    font-size: 1.6em;
+    margin-top: 130px;
+    align-self: center;
+    border-radius: 0;
+    background: #2263D5;
+}
+.category-intro{
+    height: 300px;
+    background: #eee;
+}
+.category-view{
+    margin-top: 20px;
+}
+.category-view img{
+    width: 350px;
+}
+.category-content{
+    margin-top: 20px;
+}
+.category-content h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.category-content p{
+    margin-top: 20px;
+    text-align: justify;
 }
 /* index -- MAIN-CONTENT -- end*/
 /* index -- FOOTER -- start */
@@ -39,11 +104,12 @@ a {
     width: 100%;
     overflow-y: auto;
     z-index: 0;
-    background-image: linear-gradient(to top,#3c3c3c 0,#222 100%);
+    background-image: linear-gradient(to top,#ccc 0,#ddd 100%);
     background-repeat: repeat-x;
-    border-top: 1px solid #080808;
+    border-top: 1px solid #e7e7e7;
     border-width: 1px 0 0;
-    color: #999;
+    box-shadow: inset 0 1px 0 #ccc;
+    color: #666;
 }
 .subfooter {
     max-width: 1140px;
