@@ -85,14 +85,15 @@ h1,h2,h3,h4,h5,h6,p{
     background: #2263D5;
 }
 .category-intro{
-    height: 300px;
+    height: auto;
     background: #eee;
 }
 .category-view{
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .category-view img{
-    width: 350px;
+    width: 100%;
 }
 .category-content{
     margin-top: 20px;
@@ -134,6 +135,80 @@ h1,h2,h3,h4,h5,h6,p{
    list-style-type: none;
    margin-top: 10px;
 }
+.instruction-mobile{
+    height: auto;
+    background: #eee;
+}
+.mobile-view{
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+.mobile-view img{
+    width: 100%;
+   
+}
+.mobile-content{
+      margin-top: 20px;  
+      overflow: hidden;
+}
+.mobile-content h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.mobile-content p{
+    margin-top: 20px;
+    text-align: justify;
+}
+.space-div{
+
+    border: 1px solid lightgray;
+}
+.add-Quiz-Step{
+
+    height: auto;
+    background: #eee;
+    /*text-align:center;*/
+}
+.add-Quiz-Step-1 img , .add-Quiz-Step-2 img ,.add-Quiz-Step-3 img{
+    width:100%;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.add-Quiz-Step-1  , .add-Quiz-Step-2  ,.add-Quiz-Step-3 {
+    margin-bottom: 10px;
+}
+.answer-Quiz-Step{
+    height: auto;
+    background: #eee;
+}
+.answer-Quiz-Step-1 img, .answer-Quiz-Step-2 img,.answer-Quiz-Step-3 img{
+    width:100%;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.answer-Quiz-Step-1 , .answer-Quiz-Step-2 ,.answer-Quiz-Step-3 {
+    margin-bottom: 10px;
+}
+.bottomGetStarted{
+    height: auto;
+    background: #eee;
+}
+.bottomGetStartedLeft{
+    margin-top:10px;
+}
+.bottomGetStartedRight{
+    margin-top:10px;
+}
+.bottomGetStartedBtn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px 40px;
+    font-size: 1.6em;
+    align-self: center;
+    border-radius: 0;
+    background: #2263D5;
+}
+
 /* index -- MAIN-CONTENT -- end*/
 /* index -- FOOTER -- start */
 .footer {
