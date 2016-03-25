@@ -130,8 +130,101 @@
      </div>
      <div class="col-md-6"></div>
 
+  <div class="space clear"></div>      
+  
+   <!-- Section start -->
+    <div class="ideal">
+        <div class="container-fluid">
+            <div id="accordion" class="col-md-6 col-md-push-3">
+                <h3>Section 1</h3>
+                    <div> <p> Azerbaycan Respublikasina Xidmet edirem </p>
+                    </div>
+                <h3>Section 2</h3>
+                    <div> <p> Mudafie Nazirliyi </p>
+                    </div>
+                <h3>Section 3</h3>
+                    <div> <p> Yarasa Xususi Teyinatli Deste </p>
+                    </div>
+                <h3>Section 4</h3>
+                    <div> <p> Xususi Dovlet Muhafize Xidmeti XDMX </p>
+                    </div>
+            </div>
+    </div>    
         </div>
-    <!-- /MAIN -->
+
+            <ul class="pagination col-md-6 col-md-push-5">
+              <li><a href="#" id="1" onclick="test(this.id)">1</a></li>
+              <li><a href="#" id="2" onclick="test(this.id)">2</a></li>
+              <li><a href="#" id="3" onclick="test(this.id)">3</a></li>
+              <li><a href="#" id="4" onclick="test(this.id)">4</a></li>
+              <li><a href="#" id="5" onclick="test(this.id)">5</a></li>
+            </ul>
+        
+   <!-- Section End -->       
+    
+    <!--Question Box Start -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 in-center">
+                <div class="col-md-12 in-question">
+                    <p> Whose flag is this? </p>
+                </div>
+                <div class="col-xs-3 in-leftimg">
+                    <img src="images/azerbaijanflag.jpg">
+                </div>
+                
+                <div class="col-xs-9 in-rigthanswer">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> .Answer 1 
+                        </label>
+                    </div>
+                </div>
+
+               <div class="col-xs-9 in-rigthanswer">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> .Answer 2 
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-xs-9 in-rigthanswer">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> .Answer 3 
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-xs-9 in-rigthanswer">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> .Answer 4 
+                        </label>
+                    </div>
+                </div>
+                
+            <ul class="pagination col-md-6 col-md-push-5">
+              <li><a href="#" id="1" onclick="test(this.id)">1</a></li>
+              <li><a href="#" id="2" onclick="test(this.id)">2</a></li>
+              <li><a href="#" id="3" onclick="test(this.id)">3</a></li>
+              <li><a href="#" id="4" onclick="test(this.id)">4</a></li>
+              <li><a href="#" id="5" onclick="test(this.id)">5</a></li>
+            </ul>
+
+            </div>
+        </div>
+    </div> 
+  </div>
+    
+    <!--Question Box End -->
+
+                      <!-- /MAIN -->
+
+    <div class="space clear"></div>   
+
     <!-- FOOTER -->
         <div class="footer style="z-index:100;>
            <div class="container">
@@ -167,13 +260,23 @@
             </div>
         </div>
     <!-- /FOOTER -->
+    <script src="js/jquery.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
     <script src="js/jquery-1.12.2.min.js">
          $(document).ready(function(){
                   $('.sld').click(function(){
                          $(this).animate({"right": '200px'});
                   });
           });
+
+
+        //  $(document).ready(function(){
+        //      $(function() {
+        // $("#accordion").accordion();
+        //     });
+        // });
     </script>
     <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>

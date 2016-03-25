@@ -209,6 +209,49 @@ h1,h2,h3,h4,h5,h6,p{
     background: #2263D5;
 }
 
+
+/* Section start */
+.ideal{
+    text-align: center;
+    margin-top: 15px;
+    background: red;
+    border: 2px solid black;
+}
+/* Section end */
+
+/* Question Box start */
+
+.in-center{
+    padding-top: 50px;
+    background: #F9E79F;
+}
+
+.in-question{
+    height: 60px;
+    border: 1px solid black;
+}
+
+.in-question p{
+    font-size: 30px;
+    color: #D35400;
+}
+
+.in-leftimg{
+    height: 160px;
+    border: 1px solid black;
+
+}
+
+.in-leftimg img{
+    width: 315px;
+    height: 160px; 
+}
+
+.in-rigthanswer{
+    border:1px solid black;
+}
+
+/* Question Box end */
 /* index -- MAIN-CONTENT -- end*/
 /* index -- FOOTER -- start */
 .footer {
