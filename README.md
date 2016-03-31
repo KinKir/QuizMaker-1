@@ -1,4 +1,4 @@
 # QuizMaker
 
-Our team try create the QuzMaker site.
-Wish us luck.
+Our team try create a QuizMaker site.
+Wish us luck!!!
